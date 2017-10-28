@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a minimal Rails 5 example for the problem with `jasmine-rails` I
+described in this question: https://stackoverflow.com/questions/46981445/jasmine-rails-gem-used-from-commandline-skips-all-my-specs-why
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The problem is that `jasmine` specs are running from web, but skipping
+all specs from commandline. If anyone has a suggestion, just answer the
+above question or create a pull request... whatever ;-)
