@@ -18,3 +18,9 @@ above question or create a pull request... whatever ;-)
 5. start `rails server`
 6. Go to http://localhost:3000/specs and see that specs are run as
    expected
+
+
+## Already fixed!
+
+There was a bug in `jasmine-rails 0.14.6` that caused it. Fixed in
+`0.14.7`.
